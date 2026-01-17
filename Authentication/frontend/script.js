@@ -76,7 +76,8 @@ document.getElementById('loginForm').addEventListener('submit', async (e) => {
     msg.style.border = res.ok ? '1px solid #c3e6cb' : '1px solid #f5c6cb';
     
     if (res.ok) {
-      e.target.reset();
+      localStorage.setItem('auth_username', username);
+      window.location.href = 'dashboard.html';
     }
   } catch (err) {
     msg.textContent = 'Error connecting to server';
