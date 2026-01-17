@@ -5,7 +5,7 @@ import bcrypt from 'bcryptjs';
 
 const app = express();
 const port = 3001;
-const mongoUrl = 'mongodb://localhost:27017'; // Update if your MongoDB runs elsewhere
+const mongoUrl = 'mongodb+srv://varunesh:varunesh@cluster1.lvoka.mongodb.net/auth_demo?retryWrites=true&w=majority'; // Update if your MongoDB runs elsewhere
 const dbName = 'auth_demo';
 
 app.use(cors());
