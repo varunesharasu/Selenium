@@ -6,8 +6,9 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
 
-# Path to your ChromeDriver
-CHROMEDRIVER_PATH = 'chromedriver'  # Update if needed
+
+# Path to your ChromeDriver (update this path if needed)
+CHROMEDRIVER_PATH = r'C:\WebDrivers\chromedriver.exe'  # Example absolute path
 
 # URL of your authentication page
 URL = 'file:///D:/Projects/Selenium/Authentication/frontend/index.html'
